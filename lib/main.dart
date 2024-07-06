@@ -12,9 +12,9 @@ class LoginApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: Color.fromARGB(255, 147, 204, 204),
         scaffoldBackgroundColor: Color.fromARGB(255, 252, 248, 244),
-        textTheme: TextTheme(
-          headline6: TextStyle(color: Colors.black),
-          bodyText1: TextStyle(color: Colors.black87),
+        textTheme: const TextTheme(
+          titleLarge: TextStyle(color: Colors.black),
+          bodyMedium: TextStyle(color: Colors.black87),
         ),
       ),
       home: LoginPage(),
